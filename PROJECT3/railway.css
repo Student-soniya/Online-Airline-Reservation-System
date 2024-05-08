@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./c:\Users\komal\OneDrive\Pictures\assets\traveller-2.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(252, 159, 52);
+    background: #a5a4a4;
+    background: transparent;
+    font-family: 'Arial';
+    
+    font-weight: 400;
+    
+    
+
+}
+.rg-form{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    background-size: cover ;
+    background-color: #c0b9b9;
+    background: transparent;
+    font-family: arial ;
+    font-weight: 900;
+    border: 10px solid #b2b3b4;
+    border-radius: 20px;
+    box-shadow: 10 5px 10px rgba(0, 0, 0, 0.1);
+}
+.rg-form .form-group{
+    margin-bottom: 20px;
+}
+.rg-form .form-control{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 1px solid #413d3d;
+    border-style: groove;
+    background: #a5a4a4;
+    border-radius: 5px;
+    box-shadow: none;
+}
+::placeholder{
+    color: #000000;
+}
+.rg-form .btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg ,#71b7e6, #b6b059 );
+    color: #fff;
+    cursor: pointer;
+}
+.rg-form .btn:hover{
+    color: black;
+    background-color: #c0cec0;
+    transition: 0.5s ease;
+
+}
+.rg-form .btn:focus{
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Railway Form</title>
+    <link rel="stylesheet" href="railway.css">
+</head>
+<body>
+    
+    <p>
+    <h1> Registration Form</h1></p>
+    <form class="rg-form">
+        <div class="form-group">
+            <label for="fullname">Full Name:</label>
+            <input type="text"  class="form-control"     id="fullName"  placeholder="Enter your Name" required><br>
+      
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>  
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required><br>
+            
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>  
+            <input type="age" class="form-control" id="age" placeholder="Enter Your Age" required><br>
+            
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>  
+            <select class="form-control" id="gender" placeholder="Gender" required><br>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option><br>
+            </select> </div>
+            <div class="form-group">
+                <label for="aadharno">Aadhar Number</label>
+                <input type="aadhar no" class="form-control " id="aadharno" placeholder="aadharno" required><br>
+            </div>
+            <div class="form-group">
+                <label for="mobileno">Mobile No</label>
+                <input type="tel" class="form-control" id="Mobileno" placeholder="mobileno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode</label>
+                <input type="pincode"  class="form-control"   id="pincode" placeholder="pincode" pattern="[0-9]{6}" required><br>
+                        </div>
+        
+        
+            
+        
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    
+    
+</body>
+</html>
